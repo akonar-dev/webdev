@@ -25,7 +25,7 @@ Download VS Code here:
         The skin, hair and other external attributes - CSS
         The brain and the central nervous system - JavaScript
 
-    ![HTML CSS JS](HTML_CSS_JS.jpeg)
+    ![WebSite Analogy](webAnalogy.jpeg)
 
 
 
