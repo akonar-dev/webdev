@@ -19,11 +19,13 @@ Download VS Code here:
 **Ans.** A website is composed of -
     1. HTML
     2. CSS and
-    3. JavaScript
+    3. JavaScript.
     In order to understand this let us take the analogy of the human body
         The skeleton of the website - HTML
         The skin, hair and other external attributes - CSS
         The brain and the central nervous system - JavaScript
+
+    ![HTML CSS JS] (HTML_CSS_JS.jpeg)
 
 
 
