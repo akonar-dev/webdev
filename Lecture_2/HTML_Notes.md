@@ -51,21 +51,21 @@ Example:
  ### 5. What are tags in html?
  **Ans.** In HTML, tags are the building blocks used to define and structure elements on a webpage. Tags are written using angle brackets (< >) and typically come in pairs: an opening tag (e.g., <tagname>) and a closing tag (e.g., </tagname>), though some tags are self-closing.
 
- Examples - <h1></h1>  <p></p>  <hr/>  <br/>
+ Examples - `<p> <h1></h1>  <  <hr/>  <br/> </p>`
 
 ### 6. What is an HTMl element?
-**Ans.** An <opening tag> + content + </closing tag> form an html element. It is the basic building block of an html document.
+**Ans.** An <openingTag> + content + </closingTag> form an html element. It is the basic building block of an html document.
 
-Example - <h1>Content</h1>
+Example - `<p><h1>Content</h1></p>`
 
 ### HTML tag tree
 ![HTML Document Tree](htmlTagTree.png)
 
 ### 7. Define meta, link and title tags in HTML.
 **Ans.**
- 1. <meta>: Defines metadata for the webpage (SEO, responsiveness, character set).
- 2. <link>: Links external resources like CSS files and favicons.
- 3. <title>: Sets the webpage title shown in browser tabs and improves SEO.
+ 1. `<p><meta></p>`: Defines metadata for the webpage (SEO, responsiveness, character set).
+ 2. `<p><link></p>`: Links external resources like CSS files and favicons.
+ 3. `<p><title></p>`: Sets the webpage title shown in browser tabs and improves SEO.
 
 Example -
 
