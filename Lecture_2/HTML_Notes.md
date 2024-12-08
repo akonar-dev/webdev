@@ -6,7 +6,6 @@ Written by: Arijeet Konar
 **Ans.** **Visual Studio Code (VS Code)** is a lightweight, free, open-source code editor developed by Microsoft. It's designed for a wide range of programming and development tasks and supports many programming languages like C,C++, Java, JavaScript, Python etc.
 
 Download VS Code here:
-## Links
 [VS Code](https://code.visualstudio.com/)
 
 ### 2. What is an .html in index.html?
