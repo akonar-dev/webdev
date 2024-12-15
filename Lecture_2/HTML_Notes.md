@@ -86,6 +86,36 @@ Example -
 </html>
 ```
 
+### Heading Tags in HTML
+HTML heading tags are used to define headings in a document. These tags range from <h1> to <h6>, with <h1> being the most important or prominent and <h6> being the least.
+
+```html
+<h1>This is a main heading</h1>
+<h2>This is a subheading</h2>
+<h3>This is a sub-subheading</h3>
+<h4>This is a smaller heading</h4>
+<h5>This is an even smaller heading</h5>
+<h6>This is the smallest heading</h6>
+```
+### VSCode Shortcuts
+### Lorem
+### b tag
+### i tag
+### br tag hr tag(auto closing  tag)
+### sub sup tag
+### ol ul li tag
+### anchor tag and target attribute
+### input tag label tag
+### when not to use cdn
+### img tag
+### video tag
+### audio tag
+### semantic html tags
+### 
+
+
+
+
 
 
 
