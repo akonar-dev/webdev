@@ -182,14 +182,162 @@ Example of Ordered List -
 3. Third Item
 
 ### anchor tag and target attribute
+The `<a>` tag is used to create hyperlinks in HTML. It can link to other web pages, files, email addresses, or even a specific part of the same page.
 
-### input tag label tag
-### when not to use cdn
-### img tag
-### video tag
-### audio tag
-### semantic html tags
-###
+**target** Attribute
+The target attribute specifies where to open the linked document. Common values for the target attribute are:
+
+- _blank: Opens the link in a new window or tab.
+- _self: Opens the link in the same frame or window (this is the default).
+- _parent: Opens the link in the parent frame.
+- _top: Opens the link in the full body of the window.
+
+**Syntax**
+```html
+<a href="URL" target="value">Link Text</a>
+```
+### `<input>` tag and `<label>` tag
+
+The `<input>` tag is used to create various types of interactive controls in a form, such as text fields, checkboxes, radio buttons, and buttons.
+
+Common Types of `<input>` Elements:
+- type="text": Creates a single-line text input field.
+- type="password": Creates a password input field where text is obscured.
+- type="checkbox": Creates a checkbox.
+- type="radio": Creates a radio button.
+- type="submit": Creates a button that submits the form.
+
+The `<label>` tag is used to define a label for an `<input>` element. It improves accessibility by allowing users to click the label to focus on the corresponding input field.
+
+Usage with **for** Attribute:
+The for attribute in the `<label>` tag associates the label with an input field. The value of the for attribute must match the id of the input element.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Label Example</title>
+</head>
+<body>
+    <form action="#">
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="remember">Remember me:</label>
+            <input type="checkbox" id="remember" name="remember">
+        </p>
+        <p>
+            <input type="submit" value="Login">
+        </p>
+    </form>
+</body>
+</html>
+```
+### `<img>` tag
+The `<img>` tag is used to embed images in a webpage. It is an empty tag (self-closing), meaning it does not have a closing tag. It requires at least the src (source) attribute to define the image location, and optionally, the alt attribute to provide alternative text for accessibility and SEO.
+
+Some attributes of the <img> Tag:
+- src: Specifies the path to the image.
+- alt: Provides alternative text for the image (useful for screen readers and SEO).
+
+```html
+<img src="image_url" alt="description">
+```
+### `<video>` tag
+The `<video>` tag is used to embed video content in a webpage. It allows you to display video files directly in the browser without needing third-party plugins like Flash. HTML5 introduced this tag, making it easier to handle multimedia content.
+
+Attributes of the <video> Tag:
+- src: Specifies the path to the video file.
+- autoplay: Automatically starts playing the video once it has loaded.
+- loop: Makes the video play in a continuous loop.
+- muted: Mutes the video by default.
+
+```html
+<video src="video_url" autoplay loop muted>
+    Your video tag.
+</video>
+```
+
+### `<audio>` tag
+The `<audio>` tag is used to embed audio content (such as music or sound effects) in a webpage. Like the <video> tag, it allows users to play, pause, and control the volume of audio without requiring third-party plugins.
+
+Attributes of the <audio> Tag:
+- src: Specifies the path to the audio file.
+- autoplay: Automatically starts playing the audio when the page loads.
+- loop: Makes the audio play in a continuous loop.
+- muted: Mutes the audio by default.
+
+```html
+<audio src="audio_url" autoplay loop muted>
+    Your audio tag.
+</audio>
+```
+### Semantic HTML tags
+Semantic HTML tags provide meaning to the content of a webpage, making the structure more readable and accessible. These tags help search engines and other user agents understand the content better, improving SEO (Search Engine Optimization) and accessibility.
+
+Some examples of semantic tags are -
+`<article>` Represents a self-contained piece of content that can be distributed or reused independently (e.g., blog posts, news articles, forum posts).
+
+`<aside>` Represents content that is tangentially related to the content around it, often used for sidebars, advertisements, or related links.
+
+`<details>` Represents a disclosure widget from which the user can obtain additional information or controls, usually in the form of a collapsible section.
+
+`<figcaption>` Represents a caption or legend for content inside a `<figure>` element, such as an image, chart, or illustration.
+
+`<figure>` Represents content like images, illustrations, diagrams, or videos, along with optional captions (`<figcaption>`).
+
+`<footer>` Represents the footer section of a webpage or section, typically containing copyright information, contact details, and links.
+
+`<header>` Defines the header of a document or section. It typically contains introductory content such as logos, navigation links, and headings. A page can have multiple `<header>` elements, each associated with a section or the whole page.
+
+`<main>`  Represents the main content of the document. It is used to group the dominant content of the page that is directly related to or expands upon the central theme of the page. The `<main>` element should be used only once per page, as it highlights the primary content and helps with SEO and accessibility.
+
+`<mark>` Used to highlight or mark text for reference or emphasis, often representing a search result or important information.
+
+`<nav>` Defines a navigation section that contains links to other pages or sections within the website. It helps search engines and screen readers understand the navigation structure of the site.
+
+`<section>` Used to group related content in a document, typically representing a thematic block or subsection of a page. It is used for creating distinct sections such as articles, chapters, or topics.
+
+`<summary>` Provides a summary or a clickable heading for the `<details>` element. When clicked, it expands or collapses the detailed content.
+
+Some code examples below -
+```html
+<article>
+    <h2>Article Title</h2>
+    <p>This is the content of the article.</p>
+</article>
+```
+
+```html
+<aside>
+    <h3>Related Articles</h3>
+    <ul>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 2</a></li>
+    </ul>
+</aside>
+```
+
+```html
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+```
+
+
+**Thank You**
+
+
+
 
 
 
