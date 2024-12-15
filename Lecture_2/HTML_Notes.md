@@ -87,7 +87,7 @@ Example -
 ```
 
 ### Heading Tags in HTML
-HTML heading tags are used to define headings in a document. These tags range from '<h1>' to '<h6>', with '<h1>' being the most important or prominent and '<h6>' being the least.
+HTML heading tags are used to define headings in a document. These tags range from **h1** to **h6**, with **h1** being the most important or prominent and **h6** being the least.
 
 ```html
 <h1>This is a main heading</h1>
