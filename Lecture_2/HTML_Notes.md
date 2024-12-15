@@ -98,10 +98,57 @@ HTML heading tags are used to define headings in a document. These tags range fr
 <h6>This is the smallest heading</h6>
 ```
 ### VSCode Shortcuts
+[VS Code Shorcut Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+[VS Code Shorcut MacOs](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
 ### Lorem
-### b tag
-### i tag
+
+In the context of HTML and Visual Studio Code (VS Code), "lorem" refers to placeholder text commonly used in web development and design. It originates from "Lorem Ipsum," a scrambled version of Latin text used to fill spaces in design templates or mock-ups.
+
+Usage in VS Code:
+1.Open an HTML file in VS Code.
+2.Type lorem and press Tab or Enter.
+3.VS Code automatically generates a paragraph of Lorem Ipsum text.
+
+Typing lorem5 generates 5 words
+Typing lorem10 generates 10 words.
+
+### `<b>` tag
+The `<b>` tag in HTML is used to bolden text without implying any added importance or emphasis. It is typically used for styling purposes when you want to draw attention to text visually, but without conveying extra meaning.
+
+```html
+<b>Your Text Here</b>
+```
+
+### `<i>` tag
+The `<i>` tag in HTML is used to display text in italic style. It is often used for stylistic purposes or to indicate a particular type of content, such as titles, foreign words, or technical terms, without adding any semantic meaning.
+
+```html
+<i>Your Text Here</i>
+```
 ### br tag hr tag(auto closing  tag)
+
+
+| Tag | Purpose | Visual Effect |
+|------------------|------------------|------------------|
+| `<br>`   | Adds a line break in the text   | Moves content to a new line   |
+| `<hr>` | Adds a horizontal rule for separation   | Displays a horizontal line   |
+
+They are self-closing tags (do not require a closing tag)
+
+Example of `<br>`tag -
+```html
+Address: 123 Main St.<br>City, State, ZIP.
+```
+Example of `<hr>`tag -
+```html
+<h2>End of Chapter 1</h2>
+<hr>
+<h2>Start of Chapter 2</h2>
+```
+
+
+
 ### sub sup tag
 ### ol ul li tag
 ### anchor tag and target attribute
@@ -111,7 +158,7 @@ HTML heading tags are used to define headings in a document. These tags range fr
 ### video tag
 ### audio tag
 ### semantic html tags
-### 
+###
 
 
 
