@@ -126,9 +126,7 @@ The `<i>` tag in HTML is used to display text in italic style. It is often used 
 ```html
 <i>Your Text Here</i>
 ```
-### br tag hr tag(auto closing  tag)
-
-
+### `<br>` tag `<hr>` tag(auto closing  tag)
 | Tag | Purpose | Visual Effect |
 |------------------|------------------|------------------|
 | `<br>`   | Adds a line break in the text   | Moves content to a new line   |
@@ -147,11 +145,44 @@ Example of `<hr>`tag -
 <h2>Start of Chapter 2</h2>
 ```
 
+### `<sub>` `<sup>` tag
+| Tag | Use Case | Example | Visual Effect |
+|------------------|------------------|------------------|------------------|
+| `<sub>` | Text below baseline (subscript)   | H`<sub>`2`</sub>`O   | H₂O
+| `<sup>` | Text above baseline (superscript)   | x`<sup>`2`</sup>`   | x²
 
+### `<ol>` `<ul>` `<li>` tag
+| Tag    | Description                                          | Example Output                          |
+|--------|------------------------------------------------------|-----------------------------------------|
+| `<ol>` | Creates an ordered list with numbered items          | 1. Item 1 <br> 2. Item 2 <br> 3. Item 3 |
+| `<ul>` | Creates an unordered list with bullet points         | • Item 1 <br> • Item 2 <br> • Item 3    |
+| `<li>` | Defines a list item in either ordered or unordered lists | Item 1 <br> Item 2 <br> Item 3 |
 
-### sub sup tag
-### ol ul li tag
+Example of Ordered List -
+```html
+<ol>
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+</ol>
+```
+- First Item
+- Second Item
+- Third Item
+
+```html
+<ul>
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+</ul>
+```
+1. First Item
+2. Second Item
+3. Third Item
+
 ### anchor tag and target attribute
+
 ### input tag label tag
 ### when not to use cdn
 ### img tag
